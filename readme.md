@@ -27,7 +27,27 @@ take a look at <code>test_data.json</code> as an example.
 
 ### Response
 A JSON indicating the probability of each cancer type in %
-
+<code>
+{
+    "Bladder": 0.0,
+    "Breast": 0.0,
+    "Bile duct": 0.0,
+    "Colon": 0.0,
+    "Esophagus": 0.0,
+    "Head and neck": 0.0,
+    "Kidney chromophobe": 0.0,
+    "Kidney renal clear cell": 0.0,
+    "Liver": 0.0,
+    "Lung": 0.0,
+    "Ovary": 0.0,
+    "Pancreas": 0.0,
+    "Prostate": 100.0,
+    "Skin melanoma": 0.0,
+    "Stomach": 0.0,
+    "Thyroid": 0.0,
+    "Uterus": 0.0
+}
+</code>
 ### How to update the trained models
 Use <code>knn_tcga_training.ipynb</code> to train a new knn model. \
 Replace compressed pickle model files in <code>saved_models</code> directory
