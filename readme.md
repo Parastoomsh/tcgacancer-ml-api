@@ -26,8 +26,8 @@ parameter **input:** a 2403*1 array representing lists of data input by user \
 take a look at <code>test_data.json</code> as an example.
 
 ### Response
-A JSON indicating the probability of each cancer type in %
-<code>
+A JSON indicating the probability of each cancer type in %:
+```json
 {
     "Bladder": 0.0,
     "Breast": 0.0,
@@ -47,7 +47,7 @@ A JSON indicating the probability of each cancer type in %
     "Thyroid": 0.0,
     "Uterus": 0.0
 }
-</code>
+```
 ### How to update the trained models
 Use <code>knn_tcga_training.ipynb</code> to train a new knn model. \
 Replace compressed pickle model files in <code>saved_models</code> directory
