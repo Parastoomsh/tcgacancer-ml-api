@@ -1,4 +1,4 @@
-# Heart Disease Machine Learning API
+# TCGA cancer prediction Machine Learning Models and API
 This project is developed with [Django Rest Framework](https://www.django-rest-framework.org/) \
 The dataset and KNN algorithm inspired by [tumor-origin github](https://github.com/programmingprincess/tumor-origin/) \
 API inspired by [Heart Disease Machine Learning API](https://github.com/HaomingJue/heart-disease-ml-api/)
