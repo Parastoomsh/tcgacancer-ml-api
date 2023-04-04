@@ -17,7 +17,7 @@ eg: To apply ml prediction with KNN model, use <code>Post</code> method to call 
 Please  include the Request Body following below guidance.
 
 ### Valid <model_name>
-knn_model
+knn_model\
 mlp_model
 
 **Note:** The <model_name> parameter should be consistent with one of the models in saved_models directory
