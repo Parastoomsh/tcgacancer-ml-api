@@ -18,12 +18,17 @@ Please  include the Request Body following below guidance.
 
 ### Valid <model_name>
 knn_model
+mlp_model
 
 **Note:** The <model_name> parameter should be consistent with one of the models in saved_models directory
 
-### Request Body
+### Request Body (knn_model)
 parameter **input:** a 2403*1 array representing lists of data input by user \
-take a look at <code>test_data.json</code> as an example.
+take a look at <code>test_data_knn.json</code> as an example.
+
+### Request Body (mlp_model)
+parameter **input:** a 154*1 array representing lists of data input by user \
+take a look at <code>test_data_mlp.json</code> as an example.
 
 ### Response
 A JSON indicating the probability of each cancer type in %:
@@ -50,5 +55,6 @@ A JSON indicating the probability of each cancer type in %:
 ```
 ### How to update the trained models
 Use <code>knn_tcga_training.ipynb</code> to train a new knn model. \
+Use <code>mlp_tcga_training.ipynb</code> to train a new deep mlp model. \
 Replace compressed pickle model files in <code>saved_models</code> directory
 
